@@ -4,4 +4,5 @@ app:
 shared:
   config:
     rebate-rate: 12
+    minimum-age: 16
   
