@@ -1,2 +1,7 @@
 app:
-  name: Shared base config for all microservices in default enviornment
+  name: Shared base config for all microservices in Dev enviornment
+  environment: default
+shared:
+  config:
+    minimum-age: 18
+  
