@@ -1,3 +1,11 @@
 app:
   name: Accounts Service Dev Environment
+  environment: Dev
+account:
+  types:
+    - Savings
+    - Current
+    - Salary
+    - Recurring Deposit
+    - Fixed Deposit
   
