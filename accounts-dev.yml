@@ -1,5 +1,5 @@
 app:
-  name: Accounts Service Dev Environment
+  name: Account Service Dev Environment
   environment: Dev
 account:
   types:
