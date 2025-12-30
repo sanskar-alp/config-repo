@@ -1,2 +1,9 @@
 app:
   name: Accounts Service QA Environment
+  environment: QA
+account:
+  types:
+    - Savings
+    - Current
+    - Salary
+  
