@@ -1,2 +1,2 @@
 app:
-  name: Application
+  name: Shared base config for all microservices in default enviornment
