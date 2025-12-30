@@ -3,5 +3,5 @@ app:
   environment: default
 shared:
   config:
+    rebate-rate: 9
     minimum-age: 18
-  
