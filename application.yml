@@ -1,5 +1,5 @@
 app:
-  name: Shared base config for all microservices in Dev enviornment
+  name: Shared base config for default environment
   environment: default
 shared:
   config:
