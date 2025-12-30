@@ -1,2 +1,7 @@
 app:
   name: Shared base config for all microservices in Dev enviornment
+  environment: Dev
+shared:
+  config:
+    rebate-rate: 12
+  
