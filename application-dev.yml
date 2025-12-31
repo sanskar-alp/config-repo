@@ -4,4 +4,8 @@ app:
 shared:
   config:
     rebate-rate: 12
-  
+spring:
+  datasource:
+    url: jdbc:postgresql://${pg-host}:${pg-port}/${pg-database}
+    username: ${pg-username}
+    password: ${pg-password}
