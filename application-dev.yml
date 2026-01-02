@@ -9,3 +9,7 @@ spring:
     url: jdbc:postgresql://${pg-host}:${pg-port}/${pg-database}
     username: ${pg-username}
     password: ${pg-password}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
