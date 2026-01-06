@@ -4,5 +4,14 @@ app:
 shared:
   config:
     rebate-rate: 9
-    minimum-age: 232323
-    
+    minimum-age: 18
+spring:
+  data:
+    mongodb:
+      host: ${mongo-host}
+      port: ${mongo-port}
+      database: ${mongo-database}
+      username: ${mongo-username}
+      password: ${mongo-password}
+      authentication-database: ${mongo-auth-db:admin}
+
