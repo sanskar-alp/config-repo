@@ -13,3 +13,12 @@ spring:
     hibernate:
       ddl-auto: validate
     show-sql: true
+  data:
+    mongodb:
+      host: ${mongo-host}
+      port: ${mongo-port}
+      database: ${mongo-database}
+      username: ${mongo-username}
+      password: ${mongo-password}
+      authentication-database: ${mongo-auth-db:admin}
+      uri: "mongodb://${mongo-username}:${mongo-password}@${mongo-host}:${mongo-port}/${mongo-database}?authSource=${mongo-auth-db:admin}"
