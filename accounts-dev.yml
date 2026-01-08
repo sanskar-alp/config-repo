@@ -1,6 +1,7 @@
 app:
   name: Accounts Service Dev Environment
   environment: Dev
+externalApiKey: TESTING_PRIORITY
 account:
   types:
     - Savings
