@@ -1,3 +1,4 @@
+
 app:
   name: Accounts Service Dev Environment
   environment: Dev
@@ -10,4 +11,5 @@ account:
     - Recurring Deposit
     - Fixed Deposit
     - Demat
+    - Test
   
